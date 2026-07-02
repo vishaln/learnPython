@@ -1,11 +1,11 @@
 # Python Programming Assignment - 9
 # Solution for Question 3
 
-GetSquare = lambda val: val * val
+# GetSquare = lambda val: val * val
 
-# def GetSquare(Val):
-#    Square = Val * Val
-#    return Square      
+def GetSquare(Val):
+   Square = Val * Val
+   return Square      
 
     
 def main():

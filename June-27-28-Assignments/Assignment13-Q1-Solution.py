@@ -1,12 +1,12 @@
 # Python Programming Assignment - 13
 # Solution for Question 1
 
-GetRectangleArea = lambda Length, Width: Length * Width
+# GetRectangleArea = lambda Length, Width: Length * Width
 
 
-# def GetRectangleArea(Length, Width):
-#    Area = Length * Width
-#    return Area
+def GetRectangleArea(Length, Width):
+    Area = Length * Width
+    return Area
 
 
 def main():

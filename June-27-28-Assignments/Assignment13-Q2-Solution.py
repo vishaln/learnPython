@@ -1,12 +1,12 @@
 # Python Programming Assignment - 13
 # Solution for Question 2
 
-GetCircleArea = lambda Pi, Radius: Pi * Radius * Radius
+# GetCircleArea = lambda Pi, Radius: Pi * Radius * Radius
 
 
-# def GetCircleArea(Pi, Radius):
-#    Area = Pi * Radius * Radius
-#    return Area
+def GetCircleArea(Pi, Radius):
+    Area = Pi * Radius * Radius
+    return Area
 
 
 def main():

@@ -1,13 +1,11 @@
 # Python Programming Assignment - 10
 # Solution for Question 4
 
-CheckEven = lambda No: (No % 2 == 0)
-
 
 def GetEvenNumbers(Val):
     EvenNumbers = []
     for i in range(1, Val + 1):
-        if CheckEven(i):
+        if i % 2 == 0:
             EvenNumbers.append(i)
     return EvenNumbers
 

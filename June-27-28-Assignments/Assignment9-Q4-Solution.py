@@ -1,11 +1,11 @@
 # Python Programming Assignment - 9
 # Solution for Question 4
 
-GetCubeNumber = lambda val: val * val * val
+# GetCubeNumber = lambda val: val * val * val
 
-# def GetCubeNumber(Val):
-#    Cube = Val * Val * Val
-#    return Cube      
+def GetCubeNumber(Val):
+   Cube = Val * Val * Val
+   return Cube      
 
     
 def main():

@@ -1,13 +1,11 @@
 # Python Programming Assignment - 10
 # Solution for Question 5
 
-CheckOdd = lambda No: (No % 2 != 0)
-
 
 def GetOddNumbers(Val):
     OddNumbers = []
     for i in range(1, Val + 1):
-        if CheckOdd(i):
+        if i % 2 != 0:
             OddNumbers.append(i)
     return OddNumbers
 
